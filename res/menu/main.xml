@@ -1,0 +1,42 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.toyos.MainActivity" >
+    
+	<!-- 
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    -->
+    
+    <item
+        android:id="@+id/action_assemble"
+        android:orderInCategory="101"
+        android:title="@string/action_assemble"
+        app:showAsAction="never" />
+    
+    <!-- 
+    <item
+        android:id="@+id/action_addline"
+        android:title="@string/action_addline"
+        android:icon="@drawable/ic_action_new"
+        app:showAsAction="ifRoom" />
+    -->
+    
+    <item
+        android:id="@+id/action_save_text_file"
+        android:title="@string/action_save_text_file"
+        android:icon="@drawable/ic_action_save"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/action_open_text_file"
+        android:title="@string/action_open_text_file"
+        android:icon="@drawable/ic_action_collection"
+        app:showAsAction="ifRoom" />
+    
+    
+
+</menu>

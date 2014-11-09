@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.toyos.MainActivity" >
+    
+	    
+    <item
+        android:id="@+id/action_delete_item"
+        android:title="@string/action_delete_item"
+        android:icon="@drawable/ic_action_discard"
+        app:showAsAction="ifRoom" />
+
+</menu>
+
+
